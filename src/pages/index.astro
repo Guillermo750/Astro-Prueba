@@ -1,5 +1,5 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Card  from '../components/Card.astro';
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -7,5 +7,111 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
+	<main>
+		<h1>Bienvenido al curso de <span>Astro</span></h1>
+		<p>Para empezar, abre el directorio <span>src/pages</span> en tu proyecto.<br>
+		<span>Reto de código:</span> Modifica el mensaje "Bienvenido a Astro" anterior.
+		</p>
+		<div class="links">
+			<Card
+				href="https://docs.astro.build/"
+				title="Documentación" 
+				body="Aprende cómo funciona Astro y explora la documentación oficial de la API."
+			/>
+			<Card
+				href="https://astro.build/integrations/"
+				title="Integraciones"
+				body="Potencia tu proyecto con nuevos frameworks y librerías."
+			/>
+			<Card
+				href="https://astro.build/themes/"
+				title="Temas"
+				body="Explora una galaxia de temas iniciales creados por la comunidad."
+			/>
+			<Card
+				href="https://astro.build/chat/"
+				title="Comunidad"
+				body="Ven a saludar a nuestra increíble comunidad en Discord."
+			/>
+		</div>
+		<style>
+			html {
+			  font-family: system-ui, sans-serif;
+			  background-color: #101923; /* Fondo oscuro */
+			  color: #fff; /* Texto blanco */
+			}
+			body {
+			  margin: 0;
+			  display: flex;
+			  flex-direction: column;
+			  align-items: center; /* Centra los elementos horizontalmente */
+			  justify-content: flex-start;
+			  min-height: 100vh;
+			}
+			main {
+			  width: 100%;
+			  max-width: 800px;
+			  padding: 2rem;
+			  display: flex;
+			  flex-direction: column;
+			  align-items: center; /* Alinea los elementos a la izquierda */
+			}
+			h1 {
+			  font-size: 3rem;
+			  font-weight: 700;
+			  line-height: 1.2;
+			  text-align: center;
+			  margin-bottom: 1em;
+			  color: #fff; /* Texto blanco */
+			}
+			h1 > span {
+			  color: #b5a1f0; /* Color morado */
+			  display: block; /* Asegura que el elemento ocupe una nueva línea */
+ 			  text-align: center; /* Centra el texto horizontalmente */
+			}
+			p > span {
+				color: #b5a1f0; /* Color morado */
+			}
+
+			p {
+			  font-size: 1rem; /* Tamaño reducido */
+			  color: #ddd; /* Texto gris claro */
+			  text-align: left; /* Alinea el texto a la izquierda */
+			  margin-bottom: 2em;
+			  padding: 0.75rem 1rem; /* Padding */
+			  background-color: #231147; /* Fondo morado */
+			  border-radius: 0.5rem; /* Bordes redondeados */
+			  border: 1px solid #a78bfa; /* Borde morado */
+			  margin-top: -0.5em; /* Margen superior e inferior */
+			  width: 90%; /* Párrafo ocupa todo el ancho disponible */
+
+			}
+			.instruction {
+			  background-color: #3a3b4b; /* Fondo de la instrucción */
+			  color: #fff;
+			  padding: 0.75rem 1rem;
+			  border-radius: 0.5rem;
+			  margin-bottom: 2rem;
+			}
+			.links {
+			  display: grid;
+			  grid-template-columns: repeat(2, minmax(250px, 1fr)); /* Dos columnas */
+			  gap: 1rem; /* Espacio entre cards */
+			  margin: 0 auto;
+			  max-width: 800px; /* Ancho máximo del contenedor */
+			  width: 95%;
+			}
+			@media (max-width: 768px) {
+			  h1 {
+				font-size: 2.5rem;
+			  }
+			  p {
+				font-size: 1rem;
+			  }
+			  .links {
+				grid-template-columns: 1fr;
+			  }
+			}
+		  </style>
+	</main>
 </Layout>
