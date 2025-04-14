@@ -46,23 +46,23 @@ Para crear nuestro proyecto ejecutamos este comando:
 
 ![image](https://github.com/user-attachments/assets/0cf6c62b-1226-457e-a9c6-ace36df5be5b)
 
-
 ## Accedemos a nuestro Proyecto y arrancamos el Visual Studio Code ejecutando estos comandos
-<img width="263" alt="captura 2 accedemos a la ruta y arrancamos el Visual Studio Code" src="https://github.com/user-attachments/assets/bfb54cc0-cfbe-4ac7-93dc-65069c6e31e0" />
+![image](https://github.com/user-attachments/assets/aeb5bfcc-5078-4e60-ac71-5debfa3ed174)
 
 ## Podemos ver la estructura de nuestro Proyecto
-<img width="748" alt="captura 3 vemos la estructura de nuestro proyecto" src="https://github.com/user-attachments/assets/10fe023b-b0cf-426d-b6e2-543d68f660fb" />
+![image](https://github.com/user-attachments/assets/2fc03826-7f23-4c3b-8650-f71fec0bd403)
 
 ## Para instalar el `framework de tailwind CSS` a nuestro Proyecto ejecutamos este comando y le damos Sí a todo
-<img width="605" alt="captura 4 añadir el framework tailwind a nuestro proyecto astro y darle Sí a todo" src="https://github.com/user-attachments/assets/dbf96bc5-2bea-4b98-a331-e5c584afbe16" />
+![image](https://github.com/user-attachments/assets/f37b01a8-ba6c-4de7-a96b-dfd8cc45b177)
 
-Observamos que se nos creó una carpeta 'Styles' y dentro una archivo .CSS 'global.css'
+Observamos que se nos creó una carpeta 'Styles' y dentro un archivo llamdo 'global.css'
 Creando un 'h1' dentro del main del index podemos comprobar que el framwork tailwind CSS se instaló correctamente
-<img width="791" alt="captura 5 vemos en nuestro proyecto que se nos creo una carpeta llamada estilos, un archivo global css y vemos código Tailwinds CSS añadiendose a un h1" src="https://github.com/user-attachments/assets/7325d445-57d2-4a02-b443-585247124196" />
+![image](https://github.com/user-attachments/assets/5b2d466b-6638-44dc-b077-52b535a4212f)
 
 ## Ejecutamos este comando para arrancar nuestro programa
 Accedemos a la ruta Local para ver la Web
 
-<img width="324" alt="captura 6 arrancamos el programa ejecutando este comando" src="https://github.com/user-attachments/assets/bc2f3337-3570-4983-9760-9c81a8cd7b8d" />
+![image](https://github.com/user-attachments/assets/6703246a-bdee-4a7f-a636-ba205db5f71a)
+
 
 
