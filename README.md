@@ -82,6 +82,7 @@ Accedemos a la ruta Local para ver la Web
 ![Captura 12 Si da error en lo marcado con rojo](https://github.com/user-attachments/assets/c7b47b41-6eec-4e42-b8d1-bbd038de9e85)
 
 Ejecutamos estos dos comandos para corregirlo
+
 <img width="484" alt="captura 12 1 ejecutamos estos comandos si el error no da en esta línea import { initReactI18next } from 'react-i18next';" src="https://github.com/user-attachments/assets/cf91db8a-98e8-4f56-bfea-5b08b9589eee" />
 
 ## Explicación de porque el archivo 'astro-i18next.d.ts' tiene que estar dentro de la carpeta src:
