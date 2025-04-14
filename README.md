@@ -59,6 +59,9 @@ Observamos que se nos creó una carpeta 'Styles' y dentro un archivo llamdo 'glo
 Creando un 'h1' dentro del main del index podemos comprobar que el framwork tailwind CSS se instaló correctamente
 ![image](https://github.com/user-attachments/assets/5b2d466b-6638-44dc-b077-52b535a4212f)
 
+La guía oficial de Astro para integrar Tailwind CSS: 
+https://docs.astro.build/en/guides/styling/#tailwind-css
+
 ## Ejecutamos este comando para arrancar nuestro programa
 Accedemos a la ruta Local para ver la Web
 
