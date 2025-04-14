@@ -1,5 +1,8 @@
 # Astro Ejemplo: Basics
 
+# Vídeo del Curso desde Cero de Astro
+https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2309s
+
 ## 🚀 Project Structure
 
 Dentro de tu proyecto Astro, verás las siguientes carpetas y archivos:
