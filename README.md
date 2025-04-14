@@ -1,6 +1,6 @@
 # Astro Ejemplo: Basics
 
-# Vídeo del Curso desde Cero de Astro
+Vídeo del Curso desde Cero de Astro
 https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2309s
 
 ## 🚀 Project Structure
