@@ -44,7 +44,8 @@ Para crear nuestro proyecto ejecutamos este comando:
 2. Le decimos que Nos instale las dependecias
 3. Le decimos que si inicialize con Git
 
-![image](https://github.com/user-attachments/assets/00784b39-d326-4ba6-84e8-3c0cb7ac5acb)
+![image](https://github.com/user-attachments/assets/0cf6c62b-1226-457e-a9c6-ace36df5be5b)
+
 
 ## Accedemos a nuestro Proyecto y arrancamos el Visual Studio Code ejecutando estos comandos
 <img width="263" alt="captura 2 accedemos a la ruta y arrancamos el Visual Studio Code" src="https://github.com/user-attachments/assets/bfb54cc0-cfbe-4ac7-93dc-65069c6e31e0" />
