@@ -61,6 +61,7 @@ Creando un 'h1' dentro del main del index podemos comprobar que el framwork tail
 
 ## Ejecutamos este comando para arrancar nuestro programa
 Accedemos a la ruta Local para ver la Web
+
 <img width="324" alt="captura 6 arrancamos el programa ejecutando este comando" src="https://github.com/user-attachments/assets/bc2f3337-3570-4983-9760-9c81a8cd7b8d" />
 
 ## Ejecutamos estos dos comando para añadir el selector de idiomas al menú y que no los traduzca
