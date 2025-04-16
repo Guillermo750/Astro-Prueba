@@ -52,15 +52,15 @@ Para crear nuestro proyecto ejecutamos este comando:
 ## Podemos ver la estructura de nuestro Proyecto
 ![image](https://github.com/user-attachments/assets/2fc03826-7f23-4c3b-8650-f71fec0bd403)
 
+La guía oficial de Astro para integrar Tailwind CSS: 
+https://docs.astro.build/en/guides/styling/#tailwind-css
+
 ## Para instalar el `framework de tailwind CSS` a nuestro Proyecto ejecutamos este comando y le damos Sí a todo
 ![image](https://github.com/user-attachments/assets/f37b01a8-ba6c-4de7-a96b-dfd8cc45b177)
 
 Observamos que se nos creó una carpeta 'Styles' y dentro un archivo llamdo 'global.css'
 Creando un 'h1' dentro del main del index podemos comprobar que el framwork tailwind CSS se instaló correctamente
 ![image](https://github.com/user-attachments/assets/5b2d466b-6638-44dc-b077-52b535a4212f)
-
-La guía oficial de Astro para integrar Tailwind CSS: 
-https://docs.astro.build/en/guides/styling/#tailwind-css
 
 ## Ejecutamos este comando para arrancar nuestro programa
 Accedemos a la ruta Local para ver la Web
